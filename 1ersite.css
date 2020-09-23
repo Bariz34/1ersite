@@ -1,0 +1,285 @@
+.bloc-page
+{
+	width: 900px;
+    margin: auto;
+
+}
+body
+{
+	background-image: url(images/logo.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat;
+
+
+}
+
+.logos
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width: 1400px;
+	height: 300px;	
+	margin: auto;
+	 border: 5px black groove;
+	 box-shadow: 6px 6px 6px 6px #9EBDFA;
+}	
+
+
+.menue
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.p2
+{
+text-align: center;
+margin-right: 50px;
+margin-left: 25px;
+font-family: "Cookie.ttf";
+text-transform: uppercase;
+font-size: 1.5em;
+color: black;
+background-color: orange;
+border-radius: 6px 6px 6px;
+text-decoration: none;
+padding:0.4em;
+border: 5px black groove;
+
+}
+
+@font-face
+{
+font-family: "StingerWide.ttf";
+src: url(fonts/StingerWide.ttf);
+
+}
+
+@font-face
+{
+font-family: "Cookie.ttf";
+src: url(fonts/Cookie.ttf);
+
+}
+@font-face
+{
+font-family: "SuperMario256.ttf";
+src: url(fonts/SuperMario256.ttf);
+}
+@font-face
+{
+font-family: "LovelyCreamy.ttf";
+src: url(fonts/LovelyCreamy.ttf);
+}
+
+@font-face
+{
+font-family: "SushiMoshi.ttf";
+src: url(fonts/SushiMoshi.ttf);
+}
+h1
+{
+				font-family: "SuperMario256.ttf";
+				font-size: 4em;
+			color: #F6A206;
+			background-color: black;
+			text-align: center;
+			 border: 5px black groove;
+			 border-radius: 20px/10px;
+			 box-shadow: 6px 6px 6px 6px #9EBDFA;
+			 margin:0px 180px 50px 180px;
+
+
+			}
+.site
+{
+	font-family:"LovelyCreamy.ttf";
+	text-align: center;
+	font-size: 2em;
+	 text-decoration: underline;
+	 font-weight: bold;
+}
+
+h2
+{
+	       font-family: "SuperMario256.ttf";
+		   font-size: 1.5em;
+		   text-decoration: underline;
+			color: #F6A206;
+			background-color: black;
+			text-align: center;
+			 border: 5px black groove;
+			 box-shadow: 6px 6px 6px 6px #9EBDFA;
+			 border-radius: 20px/10px;
+			 margin:70px 530px 50px 530px;			 
+}
+.dva1
+{
+ font-size: 1.5em;
+color: #F6A206;
+	background-color: black;
+text-align: center;
+border: 5px black groove;
+height: 75%;
+	width: 75%;
+
+
+}
+#dva
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+h3
+{ 
+	 font-family: "SushiMoshi.ttf";
+		   font-size: 3em;
+			color: pink;
+			background-color: black;
+			 border: 5px black groove;
+			 box-shadow: 6px 6px 6px 6px #9EBDFA;
+			 border-radius: 20px/10px;
+			 text-align: center;
+
+}
+p
+{
+	font-family:"comic sans ms";
+	font-size: 1.5em;
+	height: 55%;
+	width: : 50%%;
+
+	text-align: center;
+}
+.dvaphoto
+{
+	height: 75%;
+	width: 75%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+/* Footer */
+
+footer
+{
+    display: flex;
+    margin-bottom: 5px;
+    border:2px solid black;
+    background-color: orange;
+    height: 150px;
+    margin-top: 200px;
+
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+#tweet
+{
+    width: auto;
+}
+
+#mes_photos
+{
+    width: 35%;
+ 
+}
+
+#mes_amis
+{
+    width: 35%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 20px;
+    width: 100px;
+    height: 70px;
+    margin-top: -10px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: ;
+    list-style-type:none;
+    color: red;
+    margin-left: 50px;
+
+    
+
+}
+
+#mes_amis ul
+{
+    padding-left: 2px;
+    list-style-type:none;
+    text-align: center;
+    font-size: 1.2em;
+    color: red;
+    margin-top: -40px;
+    margin-left: -50px;
+
+}
+
+#mes_amis a
+{
+	display:flex;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+   font-family: "Cookie.ttf";
+   border: 1px black groove;
+
+}
+nav
+{
+	text-align: center;
+}
+#tweet p
+{
+	margin-top: -30px;
+	margin-left: -50px;
+	 padding-left: 2px;
+    margin-bottom: 50px;
+    list-style-type:none;
+    text-align: center;
+    font-size: 1.2em;
+    color: red;
+font-family: "Cookie.ttf";
+}
+a:hover
+{
+	color: red; /*permet de survolet le lien et le voir en rouge*/
+}
+
+#mes_amis a:focus /* Sur chrome et safari cette effet permet de selectionner le lien avec la raccourci TAB, on peut voir un petit carré au tour du lien */
+{
+	color: black;}
+
+#mes_amis a:active /* permet de donner une couleur au lien au moment du clique*/
+{
+	color: white;
+}
+
+#mes_amis a:hover
+{
+	color: red; /*permet de survolet le lien et le voir en rouge*/
+}
